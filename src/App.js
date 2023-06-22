@@ -15,6 +15,7 @@ function App() {
       <Route path='/about' Component={About} />
     </Routes>
   </Router>
+  
   );
 }
   
