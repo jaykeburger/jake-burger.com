@@ -8,14 +8,14 @@ const Home = () => {
       style={{
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'Center',
+        //justifyContent: 'Top',
         alignItems: 'Center',
         height: '100vh',
         background: '#041129',
         gap: '5%'
       }}
     >
-      <div style={{ fontSize: 150, color:'white' }}>
+      <div style={{ fontSize: 150, color:'white', fontFamily:'monospace' }}>
         Jake Burger
       </div>
       <img src={logo} style={{ width: "30%", height: "35%" }} alt="loading..."/>
