@@ -1,7 +1,9 @@
 
 import React from 'react';
-import logo from '../assets/vwavegif.gif'
-import logo2 from '../assets/github.png'
+import vwavegif from '../assets/vwavegif.gif'
+import githublogo from '../assets/github.png'
+import linkedinlogo from '../assets/linkedin.png'
+import cocologo from '../assets/coco.png'
   
 const Home = () => {
   return (
@@ -18,11 +20,17 @@ const Home = () => {
       <div style={{ fontSize: 150, color:'white', fontFamily:'monospace' }}>
         Jake Burger
       </div>
-      <img src={logo} style={{ width: "30%", height: "35%" }} alt="loading..."/>
-      <div>
-        <a href="https://github.com/jaykeburger"><img src={logo2} style={{ width: "65%", height: "10%" }} alt="loading..."/></a>
-        <a href="https://www.codecoogs.com/"><img src="logo.png"/></a>
-        <a href="https://www.linkedin.com/in/jake-d-burger/"><img src="logo.png"/></a>
+      <img src={vwavegif} style={{ width: "30%", height: "35%" }} alt="loading..."/>
+      <div class="row">
+        <div class="col-xs-2">
+          <a href="https://github.com/jaykeburger"><img src={githublogo} style={{ width: "5%", height: "5%" }} alt="loading..."/></a>
+        </div>
+        <div class="col-xs-2">
+          <a href="https://www.codecoogs.com/"><img src={cocologo} style={{ width: "5%", height: "5%" }} alt="loading..."/></a>
+        </div>
+        <div class="col-xs-2">
+          <a href="https://www.linkedin.com/in/jake-d-burger/"><img src={linkedinlogo} style={{ width: "5%", height: "5%" }} alt="loading..."/></a>
+        </div>
       </div>
     </div>
   );
