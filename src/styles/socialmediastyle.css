@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 40%;
+    width:15%
+  }
+  
+  img{
+    width: 100%;
+  }
+  .element1 {
+    flex: 1;
+  }
+  .element2 {
+    flex: 1;
+  }
+  .element3 {
+    flex: 1;
+  }

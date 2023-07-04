@@ -1,9 +1,9 @@
 
 import React from 'react';
 import vwavegif from '../assets/vwavegif.gif'
-import SocialMediaBar from '../components/SocialMediaBar';
 import HomePageLogo from '../components/HomePageLogo';
 import HomePageTitle from '../components/HomePageTitle';
+import SocialMediaBar from '../components/SocialMediaBar';
   
 const Home = () => {
   return (
