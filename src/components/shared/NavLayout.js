@@ -50,7 +50,7 @@ export const NavBtnLink = styled(Link)`
   border-radius: 4px;
   background: #ffff; //BUTTON BACKGROUND COLOR
   padding: 10px 22px;
-  color: #F00000; //BUTTON TEXT COLOR
+  color: #000000; //BUTTON TEXT COLOR
   outline: none;
   border: none;
   cursor: pointer;

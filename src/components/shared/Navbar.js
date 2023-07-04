@@ -32,11 +32,9 @@ const Navbar = () => {
           <NavLink to='/code-coogs' activeStyle>
             Code Coogs
           </NavLink>
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+          <NavBtnLink to='/'>j4ke.dev</NavBtnLink>
         </NavBtn>
       </Nav>
     </>
