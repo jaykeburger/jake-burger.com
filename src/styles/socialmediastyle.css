@@ -3,8 +3,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    margin-left: 40%;
-    width:15%
+    width:15%;
   }
   
   img{
@@ -12,10 +11,13 @@
   }
   .element1 {
     flex: 1;
+    padding:10px;
   }
   .element2 {
     flex: 1;
+    padding:10px;
   }
   .element3 {
     flex: 1;
+    padding:10px;
   }
