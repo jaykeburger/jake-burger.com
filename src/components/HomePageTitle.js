@@ -15,7 +15,7 @@ const HomePageTitle = () => {
             options={{
                 autoStart: true,
                 loop: true,
-                delay: 100
+                delay: 150
                 }}
             onInit={(typewriter) => {
                 typewriter
@@ -27,24 +27,16 @@ const HomePageTitle = () => {
                 .deleteAll()
                 .typeString("adventurer")
                 .pause(20000)
+                .deleteAll()
+                .typeString("university student")
+                .pause(20000)
+                .deleteAll()
                 .start();
             }}
-/>
+            />
         </i></h1>
     </div>
   );
 };
   
 export default HomePageTitle;
-/*
-<Typewriter
-onInit={(typewriter) => {
-typewriter
-.typeString("Welcome to")
-.pause(20000)
-.deleteAll()
-.typeString("jake-burger.com")
-.start();
-}}
-/>
-*/
