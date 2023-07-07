@@ -1,5 +1,6 @@
 import React from 'react';
 import Typewriter from "typewriter-effect";
+import '../styles/home.css';
 
 
 const HomePageTitle = () => {
@@ -10,6 +11,7 @@ const HomePageTitle = () => {
         flexDirection: 'column',
         alignItems: 'Center',
         gap: '5%',}}>
+        <h1 style={{color:'white', fontFamily:'inherit', fontSize:'70px'}}><i>Jake Burger</i></h1>
         <h1 style={{color:'white', fontFamily:'inherit', fontSize:'70px'}}><i>
         <Typewriter
             options={{
@@ -19,9 +21,6 @@ const HomePageTitle = () => {
                 }}
             onInit={(typewriter) => {
                 typewriter
-                .typeString("Jake Burger:")
-                .pause(20000)
-                .deleteAll()
                 .typeString("software developer")
                 .pause(20000)
                 .deleteAll()

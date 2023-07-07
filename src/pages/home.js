@@ -1,8 +1,8 @@
 
 import React from 'react';
 import HomePageLogo from '../components/HomePageLogo';
-import HomePageTitle from '../components/HomePageTitle';
 import SocialMediaBar from '../components/SocialMediaBar';
+import HomePageTitle from '../components/HomePageTitle';
 import '../styles/home.css';
   
 const Home = () => {

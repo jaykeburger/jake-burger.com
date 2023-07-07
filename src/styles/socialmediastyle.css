@@ -6,10 +6,11 @@
     align-items: center;
     width:15%;
     margin-left: 43vw;
+    position: fixed;
   }
   
   img{
-    width: 100%;
+    width: 50px;
   }
   .element1 {
     flex: 1;
