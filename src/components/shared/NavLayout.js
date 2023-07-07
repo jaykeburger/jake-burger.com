@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  z-index: 12;
+
 `;
   
 export const NavLink = styled(Link)`
@@ -48,7 +48,7 @@ export const NavBtn = styled.nav`
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
   background: #ffff; //BUTTON BACKGROUND COLOR
-  padding: 10px 22px;
+  padding: 20% 25%;
   color: #000000; //BUTTON TEXT COLOR
   outline: none;
   border: none;
@@ -56,7 +56,7 @@ export const NavBtnLink = styled(Link)`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   /* Second Nav */
-  margin-left: 24px;
+  margin-left: 30%;
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;

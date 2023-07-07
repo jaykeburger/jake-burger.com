@@ -13,12 +13,12 @@ const Navbar = () => {
     <>
       <Nav>
         <Bars />
+        <NavBtn>
+          <NavBtnLink to='/'>j4ke.dev</NavBtnLink>
+        </NavBtn>
         <NavMenu>
         <NavLink to='/' activeStyle>
             Home
-          </NavLink>
-          <NavLink to='/resume' activeStyle>
-            Resume
           </NavLink>
           <NavLink to='/about' activeStyle>
             About
@@ -33,9 +33,6 @@ const Navbar = () => {
             Code Coogs
           </NavLink>
         </NavMenu>
-        <NavBtn>
-          <NavBtnLink to='/'>j4ke.dev</NavBtnLink>
-        </NavBtn>
       </Nav>
     </>
   );
