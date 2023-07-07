@@ -8,7 +8,8 @@ const HomePageLogo = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'Center',
-        gap: '5%',}}>
+        gap: '5%',
+        position:'relative'}}>
       <img src={vwavegif} style={{ width: "30%", height: "35%" }} alt="loading..."/>
     </div>
   );

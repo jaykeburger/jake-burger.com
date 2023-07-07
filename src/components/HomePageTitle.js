@@ -11,8 +11,8 @@ const HomePageTitle = () => {
         flexDirection: 'column',
         alignItems: 'Center',
         gap: '5%',}}>
-        <h1 style={{color:'white', fontFamily:'inherit', fontSize:'70px'}}><i>Jake Burger</i></h1>
-        <h1 style={{color:'white', fontFamily:'inherit', fontSize:'70px'}}><i>
+        <h1 style={{color:'white', fontFamily:'inherit', fontSize:'150px'}}><i>Jake Burger</i></h1>
+        <h1 style={{color:'white', fontFamily:'inherit', fontSize:'50px'}}><i>
         <Typewriter
             options={{
                 autoStart: true,

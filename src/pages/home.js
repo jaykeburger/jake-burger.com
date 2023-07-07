@@ -8,9 +8,15 @@ import '../styles/home.css';
 const Home = () => {
   return (
     <div class="home-style">
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <HomePageTitle/>
+      <br></br>
       <SocialMediaBar/>
-      <HomePageLogo/>
+      <br></br>
+
     </div>
     
   );
