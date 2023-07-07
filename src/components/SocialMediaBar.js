@@ -7,7 +7,7 @@ import '../styles/socialmediastyle.css';
 const SocialMediaBar = () => {
   return (
     <div class='container'>
-        <div class="element2">
+              <div class="element2">
             <a href="https://www.linkedin.com/in/jake-d-burger/"><img src={linkedinlogo}alt="loading..."/></a>
         </div>
         <div class="element1">
