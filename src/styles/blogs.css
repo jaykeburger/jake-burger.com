@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    color: black;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 300px;
+    font-size: 30px;
+  }
