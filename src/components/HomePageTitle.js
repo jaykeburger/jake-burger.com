@@ -9,8 +9,8 @@ const HomePageTitle = () => {
         style={{        
         textAlign:'center',
         gap: '5%',}}>
-        <h1 style={{color:'white', fontFamily:'inherit', fontSize:'7rem', paddingLeft:'10%', paddingRight:'10%'}}><i>Jake Burger</i></h1>
-        <h1 style={{color:'white', fontFamily:'inherit', fontSize:'2.5rem'}}><i>
+        <h1 style={{color:'white', fontFamily:'inherit', fontSize:'6rem', marginLeft:'auto', marginRight:'auto'}}><i>Jake Burger</i></h1>
+        <h1 style={{color:'white', fontFamily:'inherit', fontSize:'2.5rem', marginLeft:'auto', marginRight:'auto'}}><i>
         <Typewriter
             options={{
                 autoStart: true,
