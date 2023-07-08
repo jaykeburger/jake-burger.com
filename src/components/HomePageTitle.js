@@ -28,6 +28,12 @@ const HomePageTitle = () => {
                 .typeString("university student")
                 .pause(20000)
                 .deleteAll()
+                .typeString("leader")
+                .pause(20000)
+                .deleteAll()
+                .typeString("designer")
+                .pause(20000)
+                .deleteAll()
                 .start();
             }}
             />

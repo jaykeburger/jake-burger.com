@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles/App.css';
 import Navbar from './components/shared/Navbar';
-import Gallery from './components/Gallery'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
 import About from './pages/about';
+import Gallery from './pages/gallery';
   
 function App() {
   return (
