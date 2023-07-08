@@ -7,12 +7,10 @@ const HomePageTitle = () => {
   return (
     <div 
         style={{        
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'Center',
+        textAlign:'center',
         gap: '5%',}}>
-        <h1 style={{color:'white', fontFamily:'inherit', fontSize:'10rem'}}><i>Jake Burger</i></h1>
-        <h1 style={{color:'white', fontFamily:'inherit', fontSize:'4rem'}}><i>
+        <h1 style={{color:'white', fontFamily:'inherit', fontSize:'7rem', paddingLeft:'10%', paddingRight:'10%'}}><i>Jake Burger</i></h1>
+        <h1 style={{color:'white', fontFamily:'inherit', fontSize:'2.5rem'}}><i>
         <Typewriter
             options={{
                 autoStart: true,
