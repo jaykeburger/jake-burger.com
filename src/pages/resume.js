@@ -1,20 +1,47 @@
 import React from 'react';
 import '../styles/resume.css';
-  
+import coco from '../assets/photos/IMG_6317.jpg'
+
 const Resume = () => {
+
   return (
-    <div>
-      <h1>Education</h1>
-      <p>University of Houston 2024</p>
-      <p>Relevant Coursework: Computer Networks, Data Structures, Computer Architecture, Operating Systems</p>
-      <h1>Work Experience</h1>
-      <p>Boeing drop down</p>
-      <p>iCode drop down</p>
-      <h1>Skills</h1>
-      <p>list of skills</p>
-      <h1>Resume PDF</h1>
-    </div>
-    
+<div>
+  <br></br>
+  <br></br>
+<section class="accordion">
+  <input type="checkbox" name="collapse1" id="handle1"/>
+  <h2 class="handle">
+    <label for="handle1">Education</label>
+  </h2>
+  <div class="content">
+    <p><strong>Overall Impression:</strong> A deep reddish-copper, moderately strong, malty, complex Trappist ale with rich malty flavors, dark or dried fruit esters, and light alcohol blended together in a malty presentation that still finishes fairly dry.</p>
+    <p><strong>History:</strong> Originated at monasteries in the Middle Ages, and was revived in the mid-1800s after the Napoleonic era.</p>
+  </div>
+</section>
+<section class="accordion">
+  <input type="checkbox" name="collapse2" id="handle2"/>
+  <h2 class="handle">
+    <label for="handle2">Work Experience</label>
+  </h2>
+  <div class="content">
+    <p><strong>Overall Impression:</strong> A pale, somewhat spicy, dry, strong Trappist ale with a pleasant rounded malt flavor and firm bitterness. Quite aromatic, with spicy, fruity, and light alcohol notes combining with the supportive clean malt character to produce a surprisingly drinkable beverage considering the high alcohol level.</p>
+    <p><strong>History:</strong> Originally popularized by the Trappist monastery at Westmalle.</p>
+  </div>
+</section>
+<section class="accordion">
+  <input type="checkbox" name="collapse3" id="handle3"/>
+  <h2 class="handle">
+    <label for="handle3">Skills</label>
+  </h2>
+  <div class="content">
+    <p><strong>Overall Impression:</strong> A pale, somewhat spicy, dry, strong Trappist ale with a pleasant rounded malt flavor and firm bitterness. Quite aromatic, with spicy, fruity, and light alcohol notes combining with the supportive clean malt character to produce a surprisingly drinkable beverage considering the high alcohol level.</p>
+    <p><strong>History:</strong> Originally popularized by the Trappist monastery at Westmalle.</p>
+  </div>
+</section>
+<section>
+  <button>Resume</button>
+</section>
+</div>
   );
 };
   

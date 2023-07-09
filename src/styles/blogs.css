@@ -1,11 +1,11 @@
-.flex-container {
+.blog-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     border-style: outset;
   }
   
-  .flex-container > .item {
+  .blog-container > .blog-item {
     background-color: #f1f1f1;
     flex-wrap: wrap;
     color: black;
@@ -19,7 +19,7 @@
     transition-duration: 1s;
   }
 
-  .item:hover{
+  .blog-item:hover{
     height: 20rem;
   }
 
