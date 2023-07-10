@@ -1,7 +1,7 @@
 
 import React from 'react';
-import SocialMediaBar from '../components/SocialMediaBar';
-import HomePageTitle from '../components/HomePageTitle';
+import SocialMediaBar from '../components/homepage/SocialMediaBar';
+import HomePageTitle from '../components/homepage/HomePageTitle';
 import '../styles/home.css';
 import Gallery from './gallery.js';
   

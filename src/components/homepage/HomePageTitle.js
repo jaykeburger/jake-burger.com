@@ -1,6 +1,6 @@
 import React from 'react';
 import Typewriter from "typewriter-effect";
-import '../styles/home.css';
+import '../../styles/home.css';
 
 
 const HomePageTitle = () => {

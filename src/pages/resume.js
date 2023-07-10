@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/resume.css';
-import coco from '../assets/photos/IMG_6317.jpg'
+import pdf from '../assets/resume.pdf'
 
 const Resume = () => {
 
@@ -14,8 +14,7 @@ const Resume = () => {
     <label for="handle1">Education</label>
   </h2>
   <div class="content">
-    <p><strong>Overall Impression:</strong> A deep reddish-copper, moderately strong, malty, complex Trappist ale with rich malty flavors, dark or dried fruit esters, and light alcohol blended together in a malty presentation that still finishes fairly dry.</p>
-    <p><strong>History:</strong> Originated at monasteries in the Middle Ages, and was revived in the mid-1800s after the Napoleonic era.</p>
+    <p>University of Houston - BS Computer Science - 2024</p>
   </div>
 </section>
 <section class="accordion">
@@ -24,8 +23,10 @@ const Resume = () => {
     <label for="handle2">Work Experience</label>
   </h2>
   <div class="content">
-    <p><strong>Overall Impression:</strong> A pale, somewhat spicy, dry, strong Trappist ale with a pleasant rounded malt flavor and firm bitterness. Quite aromatic, with spicy, fruity, and light alcohol notes combining with the supportive clean malt character to produce a surprisingly drinkable beverage considering the high alcohol level.</p>
-    <p><strong>History:</strong> Originally popularized by the Trappist monastery at Westmalle.</p>
+    <ul>
+      <li><p>Boeing - Houston TX - May 2022 - Present</p></li>
+      <li><p>iCode - Houston TX - Nov 2021 - May 2022</p></li>
+    </ul>
   </div>
 </section>
 <section class="accordion">
@@ -34,12 +35,17 @@ const Resume = () => {
     <label for="handle3">Skills</label>
   </h2>
   <div class="content">
-    <p><strong>Overall Impression:</strong> A pale, somewhat spicy, dry, strong Trappist ale with a pleasant rounded malt flavor and firm bitterness. Quite aromatic, with spicy, fruity, and light alcohol notes combining with the supportive clean malt character to produce a surprisingly drinkable beverage considering the high alcohol level.</p>
-    <p><strong>History:</strong> Originally popularized by the Trappist monastery at Westmalle.</p>
+  <ul>
+      <li><p>Languages: C++, C#, Java, HTML, CSS, JavaScript</p></li>
+      <li><p>Frameworks: ASP.NET, Blazor, React </p></li>
+      <li><p>Other: PhotoShop, Visual Studio, Raspberry Pi</p></li>
+    </ul>
   </div>
 </section>
 <section>
-  <button>Resume</button>
+  <form action={pdf} target="_blank">
+    <input type="submit" value="Resume" />
+</form>
 </section>
 </div>
   );

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import '../styles/gallery.css';
-import PhotoCarousel from '../components/PhotoCarousel';
+import PhotoCarousel from '../components/gallery/PhotoCarousel';
   
 const Gallery = () => {
   return (
