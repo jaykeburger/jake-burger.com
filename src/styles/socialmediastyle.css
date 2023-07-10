@@ -3,12 +3,13 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    width:15%;
+    width:10%;
     margin: 0 auto;
   }
   
   img{
-    width: 50px;
+    width: 3.5vw;
+    min-width: 35px;
   }
   .element1 {
     flex: 1;
@@ -21,4 +22,5 @@
   .element3 {
     flex: 1;
     padding:10px;
+    margin-right: auto;
   }

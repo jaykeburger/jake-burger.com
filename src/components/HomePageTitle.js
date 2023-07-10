@@ -5,12 +5,9 @@ import '../styles/home.css';
 
 const HomePageTitle = () => {
   return (
-    <div 
-        style={{        
-        textAlign:'center',
-        gap: '5%',}}>
-        <h1 style={{color:'white', fontFamily:'inherit', fontSize:'7vw 7vh', marginLeft:'auto', marginRight:'auto'}}><i>Jake Burger</i></h1>
-        <h1 style={{color:'white', fontFamily:'inherit', fontSize:'3.5vw', marginLeft:'auto', marginRight:'auto'}}><i>
+    <div>
+        <h1 className='title'><i>Jake Burger</i></h1>
+        <h1 className='subtitle'><i>
         <Typewriter
             options={{
                 autoStart: true,

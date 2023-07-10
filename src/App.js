@@ -7,11 +7,12 @@ import About from './pages/about';
 import Gallery from './pages/gallery';
 import Blogs from './pages/blogs';
 import Resume from './pages/resume';
+import BasicExample from './components/shared/Navbar';
   
 function App() {
   return (
     <Router>
-    <Navbar />
+    <BasicExample />
     <Routes>
       <Route path='/' Component={Home} />
       <Route path='/about' Component={About} />

@@ -1,5 +1,21 @@
-h1 {
-    margin: 0
+.title {
+	font-size:12vmin;
+    margin: 0;
+	color:white; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+.subtitle {
+	font-size:4vmin;
+    margin: 0;
+	color:white; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+div {
+	text-align: center;
+	gap: 5%;
 }
 
 body {

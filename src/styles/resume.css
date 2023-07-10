@@ -48,11 +48,13 @@
   
   .accordion > input[type="checkbox"]:checked ~ .content {
     padding: 15px;
+    width: match-parent;
+    min-width: 100px;
     border: 1px solid #39ce43;
     border-top: 0;
     margin: auto 0;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 8vw;
+    margin-right: 8vw;
   }
   
   .accordion .handle {
@@ -65,14 +67,14 @@
     color: #333;
     border: solid;
     border-radius: 15px;
-    height: 3rem;
+    height: 5rem;
     cursor: pointer;
     font-weight: normal;
     padding: 15px;
     background: #fffefa;
     margin: auto 0;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 8vw;
+    margin-right: 8vw;
   }
   
   .accordion label:hover,

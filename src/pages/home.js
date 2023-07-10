@@ -3,10 +3,11 @@ import React from 'react';
 import SocialMediaBar from '../components/SocialMediaBar';
 import HomePageTitle from '../components/HomePageTitle';
 import '../styles/home.css';
+import Gallery from './gallery.js';
   
 const Home = () => {
   return (
-    <div class="home-style">
+    <div>
       <br></br>
       <br></br>
       <br></br>
@@ -16,7 +17,6 @@ const Home = () => {
       <br></br>
       <SocialMediaBar/>
       <br></br>
-
     </div>
     
   );
