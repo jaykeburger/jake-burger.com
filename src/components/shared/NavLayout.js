@@ -4,7 +4,7 @@ import styled from 'styled-components';
   
 export const Nav = styled.nav`
   background: #000000; //NAVBAR BACKGROUND COLOR
-  height: 4rem; //NAVBAR HEIGHT
+  height: 8vh; //NAVBAR HEIGHT
   width: 100%;
   display: flex;
   justify-content: space-between;
