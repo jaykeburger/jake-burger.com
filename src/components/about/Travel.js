@@ -25,7 +25,7 @@ function Map() {
 return (
 <div style={{width:'100vw', display:'flex', flexDirection:'column', justifyContent:'center', textAlign:'center', alignItems:'center'}}>
     <h1>Places I've been to</h1>
-
+    <p>I love travelling, and I am making it my goal to visit every country in the world before I die!</p>
     <div style={{width:'50%', borderStyle:'double'}}>
     <ComposableMap data-tip="">
     <ZoomableGroup>
