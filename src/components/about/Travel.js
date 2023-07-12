@@ -1,4 +1,5 @@
-import { useState } from "react"
+import React from "react"
+import topojsonGeoUrl from '../../assets/raw.githubusercontent.com_deldersveld_topojson_master_world-countries.json'
 
 import {
     ComposableMap,
@@ -16,31 +17,40 @@ const markers = [
     }
 ];
 
-const geoUrl =
-  "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json"
-
-const mylist = ["Japan", "Germany", "United States of America", "Canada", "Mexico", "Iceland", "Norway", "Sweden", "Denmark", "Thailand", "France",
+const countriesVisited = ["Japan", "Germany", "United States of America", "Canada", "Mexico", "Iceland", "Norway", "Sweden", "Denmark", "Thailand", "France",
 "Malaysia", "United Kingdom", "Switzerland", "Finland", "Jamaica", "The Bahamas"];
 
 function Map() {
-const [content, setcontent] = useState("");
-return (
-<div style={{width:'100%', display:'flex', flexDirection:'column', justifyContent:'center'}}>
 
-    <div style={{width:'900px', borderStyle:'double'}}>
+return (
+<div style={{width:'100vw', display:'flex', flexDirection:'column', justifyContent:'center', textAlign:'center', alignItems:'center'}}>
+    <h1>Places I've been to</h1>
+
+    <div style={{width:'50%', borderStyle:'double'}}>
     <ComposableMap data-tip="">
     <ZoomableGroup>
-      <Geographies geography={geoUrl}>
+      <Geographies geography={topojsonGeoUrl}>
         {({ geographies }) =>
           geographies.map((geo) => {
             
-            const d = mylist.find((s) => s === geo.properties.name)
+            const d = countriesVisited.find((s) => s === geo.properties.name)
             return(
             <Geography 
             stroke="#fff"
             key={geo.rsmKey} 
             geography={geo}
-            fill={d ? "#28fc48" : "transparent" }
+            fill={d ? "#ab71d1" : "transparent" }
+            style={{
+                default: {
+                    outline: 'none'
+                },
+                hover: {
+                    outline: 'none'
+                },
+                pressed: {
+                    outline: 'none'
+                }
+            }}
             />
             );
         })

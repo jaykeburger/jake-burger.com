@@ -7,8 +7,9 @@ const About = () => {
   return (
     <div>
       <CodeCoogs/>
+      <br></br>
+      
       <Map/>
-      <h1>Travel</h1>
       <h1>Other</h1>
     </div>
   );
