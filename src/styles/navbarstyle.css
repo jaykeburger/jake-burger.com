@@ -1,5 +1,10 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+.navbar-light .navbar-toggler-icon{
+    background-image: url(../assets/navicon.jpg)!important;
+    background-size: 200%;
+}
+
 .bruh {
     text-align: right;
 }

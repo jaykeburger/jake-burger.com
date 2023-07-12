@@ -23,11 +23,7 @@ const images = [
   {
     original: pic4,
     thumbnail: pic4,
-  },
-  {
-    original: pic5,
-    thumbnail: pic5,
-  },
+  }
 ];
 
 class PhotoCarousel extends React.Component {

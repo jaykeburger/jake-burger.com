@@ -11,7 +11,7 @@ const Home = () => {
       <br></br>
       <br></br>
       <br></br>
-      <p style={{color:'red', textAlign:'center'}}>Please note: site is still being constructed (dont roast me yet pls)</p>
+      <p style={{color:'red', textAlign:'center'}}>Please note: site is still being constructed</p>
       <br></br>
       <HomePageTitle/>
       <br></br>
