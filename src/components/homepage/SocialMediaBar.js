@@ -8,13 +8,13 @@ const SocialMediaBar = () => {
   return (
     <div class='container'>
               <div class="element2">
-            <a href="https://www.linkedin.com/in/jake-d-burger/"><img src={linkedinlogo}alt="loading..."/></a>
+            <a target='blank' href="https://www.linkedin.com/in/jake-d-burger/"><img src={linkedinlogo} alt="loading..."/></a>
         </div>
         <div class="element1">
-            <a href="https://github.com/jaykeburger"><img src={githublogo} alt="loading..."/></a>
+            <a target='blank' href="https://github.com/jaykeburger"><img src={githublogo}  alt="loading..."/></a>
         </div>
         <div class="element3">
-            <a href="https://www.codecoogs.com/"><img src={cocologo} alt="loading..."/></a>
+            <a target='blank' href="https://www.codecoogs.com/"><img src={cocologo} alt="loading..." /></a>
         </div>
     </div>
   );
