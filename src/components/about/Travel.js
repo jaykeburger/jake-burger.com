@@ -23,10 +23,10 @@ const countriesVisited = ["Japan", "Germany", "United States of America", "Canad
 function Map() {
 
 return (
-<div style={{width:'100vw', display:'flex', flexDirection:'column', justifyContent:'center', textAlign:'center', alignItems:'center'}}>
+<div style={{display:'flex', flexDirection:'column', justifyContent:'center', textAlign:'center', alignItems:'center'}}>
     <h1>Places I've been to</h1>
     <p>I love travelling, and I am making it my goal to visit every country in the world before I die!</p>
-    <div style={{width:'50%', borderStyle:'double'}}>
+    <div style={{width:'50vw', borderStyle:''}}>
     <ComposableMap data-tip="">
     <ZoomableGroup>
       <Geographies geography={topojsonGeoUrl}>

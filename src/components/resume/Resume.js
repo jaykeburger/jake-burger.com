@@ -5,7 +5,7 @@ import pdf from '../../assets/resume.pdf'
 const Resume = () => {
 
   return (
-<div>
+<div style={{height:'100vh'}}>
   <br></br>
   <br></br>
 <section class="accordion">

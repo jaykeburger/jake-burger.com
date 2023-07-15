@@ -7,13 +7,13 @@ import '../styles/home.css';
 const Main = () => {
   return (
     <div>
-      <div id='/' style={{height:'90vh', backgroundColor:'red'}}>
+      <div id='/'>
         <Home/>
       </div>
-      <div id='about' style={{height:'100vh', backgroundColor:'green'}}>
+      <div id='about'>
         <About/>
       </div>
-      <div id='resume' style={{height:'100vh', backgroundColor:'blue'}}>
+      <div id='resume'>
         <Resume/>
       </div>
     </div>

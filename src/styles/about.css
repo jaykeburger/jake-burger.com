@@ -1,3 +1,17 @@
 div {
     color:aliceblue;
 }
+
+.about-parent {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 200vh;
+}
+.about-codecoogs {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.about-traveling {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.about-other {
+    background-color: rgba(255, 255, 255, 0.1);
+}

@@ -6,7 +6,7 @@ import '../../styles/home.css'
 const Home = () => {
   return (
     <div>
-      <div id='/' style={{height:'90vh', backgroundColor:'red'}}>
+      <div id='/' style={{height:'100vh'}}>
         <br></br>
         <br></br>
         <br></br>
