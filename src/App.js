@@ -2,11 +2,11 @@ import React from 'react';
 import './styles/App.css';
 import Navbar from './components/shared/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/home';
-import About from './pages/about';
+import Main from './pages/main';
+import About from './components/about/About.js';
 import Gallery from './pages/gallery';
 import Blogs from './pages/blogs';
-import Resume from './pages/resume';
+import Resume from './components/resume/Resume';
 import BasicExample from './components/shared/Navbar';
   
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <Router>
     <BasicExample />
     <Routes>
-      <Route path='/' Component={Home} />
+      <Route path='/' Component={Main} />
       <Route path='/about' Component={About} />
       <Route path='/resume' Component={Resume} />
       <Route path='/gallery' Component={Gallery} />
