@@ -14,9 +14,9 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav bg-light">
           <Nav className='order-4' style={{color:'white', marginRight:'100px'}}>
-            <Nav.Link style={{color:'white'}} href="/">Home</Nav.Link>
-            <Nav.Link style={{color:'white'}} href="/about">About</Nav.Link>
-            <Nav.Link style={{color:'white'}} href="/resume">Resume</Nav.Link>
+            <Nav.Link style={{color:'white'}} href="/#">Home</Nav.Link>
+            <Nav.Link style={{color:'white'}} href="/#about">About</Nav.Link>
+            <Nav.Link style={{color:'white'}} href="/#resume">Resume</Nav.Link>
             <Nav.Link style={{color:'white'}} href="/gallery">Gallery</Nav.Link>
             <Nav.Link style={{color:'white'}} href="/blogs">Blogs</Nav.Link>
           </Nav>

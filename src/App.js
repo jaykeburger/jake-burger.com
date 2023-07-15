@@ -15,8 +15,8 @@ function App() {
     <BasicExample />
     <Routes>
       <Route path='/' Component={Main} />
-      <Route path='/about' Component={About} />
-      <Route path='/resume' Component={Resume} />
+      <Route path='/#about' Component={Main} />
+      <Route path='/#resume' Component={Main} />
       <Route path='/gallery' Component={Gallery} />
       <Route path='/blogs' Component={Blogs} />
     </Routes>
