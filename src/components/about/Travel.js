@@ -26,7 +26,7 @@ return (
 <div style={{display:'flex', flexDirection:'column', justifyContent:'center', textAlign:'center', alignItems:'center'}}>
     <h1>Places I've been to</h1>
     <p>I love travelling, and I am making it my goal to visit every country in the world before I die!</p>
-    <div style={{width:'50vw', borderStyle:''}}>
+    <div style={{width:'50vw', backgroundColor:'black', border:'hidden', borderRadius:'30px'}}>
     <ComposableMap data-tip="">
     <ZoomableGroup>
       <Geographies geography={topojsonGeoUrl}>
@@ -39,7 +39,7 @@ return (
             stroke="#fff"
             key={geo.rsmKey} 
             geography={geo}
-            fill={d ? "#ab71d1" : "transparent" }
+            fill={d ? "green" : "transparent" }
             style={{
                 default: {
                     outline: 'none'
@@ -67,6 +67,8 @@ return (
       </ZoomableGroup>
     </ComposableMap>
     </div>
+    <br></br>
+    <br></br>
 </div>);
 }
 

@@ -9,17 +9,15 @@ const About = () => {
         <br></br>
         <br></br>
         <br></br>
-        <div style={{border:'', margin:'0rem'}}>
         <h1>ABOUT</h1>
-        <div className='about-codecoogs' style={{border:'solid', margin:'2rem'}}>
+        <div className='about-codecoogs'>
             <CodeCoogs/>
         </div>
-        <div className='about-traveling'style={{border:'solid', margin:'2rem'}}>
+        <div className='about-traveling'>
             <Map/>
         </div>
-        <div className='about-other' style={{border:'solid', margin:'2rem'}}> 
+        <div className='about-other'> 
             <h1>Other</h1>
-        </div>
         </div>
     </div>
   );
