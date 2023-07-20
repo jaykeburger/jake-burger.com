@@ -2,6 +2,7 @@ import React from 'react';
 import SocialMediaBar from './SocialMediaBar';
 import HomePageTitle from './HomePageTitle';
 import '../../styles/home.css'
+import { Tooltip } from 'react-tooltip'
 
 const Home = () => {
   return (

@@ -1,7 +1,10 @@
-import React from "react"
+import React, {useState} from "react"
 import topojsonGeoUrl from '../../assets/raw.githubusercontent.com_deldersveld_topojson_master_world-countries.json'
+import { Tooltip as ReactTooltip } from "react-tooltip";
+import 'react-bootstrap'
 
 import {
+    Annotation,
     ComposableMap,
     Geographies,
     Geography,
@@ -20,16 +23,20 @@ const markers = [
 const countriesVisited = ["Japan", "Germany", "United States of America", "Canada", "Mexico", "Iceland", "Norway", "Sweden", "Denmark", "Thailand", "France",
 "Malaysia", "United Kingdom", "Switzerland", "Finland", "Jamaica", "The Bahamas"];
 
-function Map() {
+const Map = () => {
 
+const [content, setContent] = useState("")
 return (
 <div style={{display:'flex', flexDirection:'column', justifyContent:'center', textAlign:'center', alignItems:'center'}}>
+
     <h1>Places I've been to</h1>
     <p>I love travelling, and I am making it my goal to visit every country in the world before I die!</p>
-    <div style={{width:'50vw', backgroundColor:'black', border:'hidden', borderRadius:'30px'}}>
+
+    <ReactTooltip id ="bruh">{content}</ReactTooltip>
+    <div style={{width:'50vw', backgroundColor:'', border:'hidden', borderRadius:'30px'}}>
     <ComposableMap data-tip="">
     <ZoomableGroup>
-      <Geographies geography={topojsonGeoUrl}>
+      <Geographies id="bruh" geography={topojsonGeoUrl}>
         {({ geographies }) =>
           geographies.map((geo) => {
             
@@ -39,18 +46,14 @@ return (
             stroke="#fff"
             key={geo.rsmKey} 
             geography={geo}
-            fill={d ? "green" : "transparent" }
-            style={{
-                default: {
-                    outline: 'none'
-                },
-                hover: {
-                    outline: 'none'
-                },
-                pressed: {
-                    outline: 'none'
-                }
+            onMouseEnter={() => {
+                const {NAME} = "bruh";
+                setContent(`${NAME}`);
             }}
+            onMouseLeave={() => {
+                setContent("");
+            }}
+            fill={d ? "green" : "transparent" }
             />
             );
         })
