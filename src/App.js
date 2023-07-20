@@ -8,7 +8,7 @@ import Gallery from './pages/gallery';
 import Blogs from './pages/blogs';
 import Resume from './components/resume/Resume';
 import BasicExample from './components/shared/Navbar';
-import TestTitle from './components/TestTitle';
+import TestTitle from './components/testtitle/TestTitle';
   
 function App() {
   return (

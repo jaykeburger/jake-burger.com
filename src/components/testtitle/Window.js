@@ -1,19 +1,16 @@
 import React from 'react';
-import githublogo from '../assets/github.png'
-import linkedinlogo from '../assets/linkedin-logo.png'
-import cocologo from '../assets/cocoidea1.png'
-import '../styles/socialmediastyle.css';
-import '../styles/testtitle.css';
+import '../../styles/socialmediastyle.css';
+import '../../styles/window.css';
   
 const Window = () => {
   return (
     <div>
         <div class="window-container">
             <div class="window-header">
-                hi
+                Jake Burger
+                <div style={{display:'inline-block', color:'black'}} class="close-tab">X</div>
             </div>
             <div class="window-body">
-                hi
             </div>
         </div>
     </div>

@@ -36,3 +36,8 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+
+.window-class {
+	position: absolute;
+}
