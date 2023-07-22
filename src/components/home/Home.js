@@ -3,19 +3,19 @@ import SocialMediaBar from './SocialMediaBar';
 import HomePageTitle from './HomePageTitle';
 import '../../styles/home.css'
 import { Tooltip } from 'react-tooltip'
+import Window from '../testtitle/Window';
+import TestTitle from '../testtitle/TestTitle';
 
 const Home = () => {
   return (
     <div>
-      <div id='/' style={{height:'100vh'}}>
-        <br></br>
-        <br></br>
-        <br></br>
-        <p style={{color:'red', textAlign:'center'}}>Please note: site is still being constructed</p>
-        <br></br>
+      <div id='/' className='flex-container'>
+        <div className='windows-title'>
         <HomePageTitle/>
-        <br></br>
+        </div>
+        <div className='social-media-bar'>
         <SocialMediaBar/>
+        </div>
       </div>
     </div>
     

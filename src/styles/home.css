@@ -13,11 +13,6 @@
 	margin-right: auto;
 }
 
-div {
-	text-align: center;
-	gap: 5%;
-}
-
 body {
 	background: linear-gradient(-45deg, #16155b, #251538, #060c30, #0c495f);
 	background-size: 800% 800%;
@@ -35,4 +30,20 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+.flex-container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+	height: 100vh;
+}
+
+.windows-title {
+	margin-right: 50%;
+	margin-bottom: 25%;
+}
+
+.social-media-bar {
 }

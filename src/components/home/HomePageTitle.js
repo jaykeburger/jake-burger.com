@@ -1,40 +1,29 @@
 import React from 'react';
 import Typewriter from "typewriter-effect";
 import '../../styles/home.css';
+import Window from '../testtitle/Window';
 
 
 const HomePageTitle = () => {
   return (
     <div>
-        <h1 className='title'><i>Jake Burger</i></h1>
-        <h1 className='subtitle'><i>
-        <Typewriter
-            options={{
-                autoStart: true,
-                loop: true,
-                delay: 150
-                }}
-            onInit={(typewriter) => {
-                typewriter
-                .typeString("software developer")
-                .pause(20000)
-                .deleteAll()
-                .typeString("adventurer")
-                .pause(20000)
-                .deleteAll()
-                .typeString("university student")
-                .pause(20000)
-                .deleteAll()
-                .typeString("leader")
-                .pause(20000)
-                .deleteAll()
-                .typeString("designer")
-                .pause(20000)
-                .deleteAll()
-                .start();
-            }}
-            />
-        </i></h1>
+      <div style={{position:'relative', padding:'50px'}}>
+      <div style={{position:'absolute', padding:''}}>
+      <Window/>
+      </div>
+      <div style={{position:'absolute', padding:'20px'}}>
+      <Window/>
+      </div>
+      <div style={{position:'absolute', padding:'40px'}}>
+      <Window/>
+      </div>
+      <div style={{position:'absolute', padding:'60px'}}>
+      <Window/>
+      </div>
+      <div style={{position:'absolute', padding:'80px'}}>
+      <Window/>
+      </div>
+    </div>
     </div>
   );
 };
