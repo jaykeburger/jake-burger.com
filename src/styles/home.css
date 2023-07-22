@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(-45deg, #16155b, #251538, #060c30, #0c495f);
+	background: linear-gradient(-45deg, #cc4949, #5b3589, #459db8, #fff193);
 	background-size: 800% 800%;
 	animation: gradient 10s ease infinite;
 	height: 500vh;
@@ -22,46 +22,32 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	background-color: red;
+	justify-content: center;
+	align-items: center;
+	height: 95vh;
 }
 
 .title-container {
 	display: flex;
 	flex-wrap: wrap;
-	height: 50vh;
+	height: 0vh;
 	width: 100%;
-	background-color: green;
+	justify-content: center;
+	align-items: center;
 }
 .terminal-container {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: blue;
-	
+	margin: 10px;
+	width: 50%;
+	justify-content: right;
+	align-items: right;
 }
 .social-media-container {
+	margin-top: 0;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: yellow;
-	margin-left: 0px;
-}
+	justify-content: center;
+	align-items: center;
 
-.flex-container {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-	height: 100vh;
-}
-
-.windows-title {
-	margin-right: 50%;
-}
-
-.social-media-bar {
-	display: inline-block;
-}
-
-.terminal-window {
-	margin-top: 300px;
-	display: inline-block;
 }

@@ -9,14 +9,11 @@ const Home = () => {
   return (
     <div>
       <div id='/' className='home-container'>
-        <div className='title-container' style={{justifyContent:'left'}}>
+        <div className='title-container'>
           <HomePageTitle />
         </div>
-        <div className='social-media-container' style={{justifyContent:'left'}}>
+        <div className='social-media-container'>
           <SocialMediaBar/>
-        </div>
-        <div className='terminal-container'>
-          <TerminalWindow/>
         </div>
       </div>
     </div>

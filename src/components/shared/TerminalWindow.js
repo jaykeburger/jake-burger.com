@@ -5,12 +5,12 @@ import Typewriter from "typewriter-effect";
 const TerminalWindow = () => {
   return (
     <div>
-        <div class="terminal-window-container">
-            <div class="terminal-window-header">
-                <div class="terminal-close-tab">X</div>
-                <div class="terminal-close-tab2">-</div>
+        <div class="1terminal-window-container">
+            <div class="1terminal-window-header">
+                <div class="1terminal-close-tab">X</div>
+                <div class="1terminal-close-tab2">-</div>
             </div>
-            <div class="terminal-window-body">
+            <div class="1terminal-window-body">
                 <ol><li><p className='keyword'>var</p><p className='var-name'>Who_I_am</p><p className='operator'>=</p><p className='quotations'>"</p>
                 <p className='quotations'><i>
         <Typewriter
