@@ -19,7 +19,6 @@ function BasicExample() {
             <Nav.Link style={{color:'white'}} href="/#resume">Resume</Nav.Link>
             <Nav.Link style={{color:'white'}} href="/gallery">Gallery</Nav.Link>
             <Nav.Link style={{color:'white'}} href="/blogs">Blogs</Nav.Link>
-            <Nav.Link style={{color:'white'}} href="/testtitle">TestTitle</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

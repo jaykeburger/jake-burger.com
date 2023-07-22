@@ -1,23 +1,9 @@
-.title {
-	font-size:12vmin;
-    margin: 0;
-	color:white; 
-	margin-left: auto; 
-	margin-right: auto;
-}
-.subtitle {
-	font-size:4vmin;
-    margin: 0;
-	color:white; 
-	margin-left: auto; 
-	margin-right: auto;
-}
-
 body {
 	background: linear-gradient(-45deg, #16155b, #251538, #060c30, #0c495f);
 	background-size: 800% 800%;
 	animation: gradient 10s ease infinite;
 	height: 500vh;
+	color: #000;
 }
 
 @keyframes gradient {
@@ -42,8 +28,8 @@ body {
 
 .windows-title {
 	margin-right: 50%;
-	margin-bottom: 25%;
 }
 
 .social-media-bar {
+	margin-top: 300px;
 }

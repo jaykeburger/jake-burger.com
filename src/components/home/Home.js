@@ -3,8 +3,6 @@ import SocialMediaBar from './SocialMediaBar';
 import HomePageTitle from './HomePageTitle';
 import '../../styles/home.css'
 import { Tooltip } from 'react-tooltip'
-import Window from '../testtitle/Window';
-import TestTitle from '../testtitle/TestTitle';
 
 const Home = () => {
   return (

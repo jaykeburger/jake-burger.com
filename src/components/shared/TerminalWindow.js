@@ -2,16 +2,16 @@ import React from 'react';
 import '../../styles/socialmediastyle.css';
 import '../../styles/window.scss';
 import Typewriter from "typewriter-effect";
-  
-const Window = () => {
+
+const TerminalWindow = () => {
   return (
     <div>
         <div class="window-container">
             <div class="window-header">
                 <div class="close-tab">X</div>
+                <div class="close-tab2">-</div>
             </div>
             <div class="window-body">
-                <h1 className='title'><i>Jake Burger</i></h1>
         <h1 className='subtitle'><i>
         <Typewriter
             options={{
@@ -46,4 +46,4 @@ const Window = () => {
   );
 };
   
-export default Window;
+export default TerminalWindow;

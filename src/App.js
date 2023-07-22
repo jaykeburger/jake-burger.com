@@ -8,7 +8,6 @@ import Gallery from './pages/gallery';
 import Blogs from './pages/blogs';
 import Resume from './components/resume/Resume';
 import BasicExample from './components/shared/Navbar';
-import TestTitle from './components/testtitle/TestTitle';
   
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
       <Route path='/#resume' Component={Main} />
       <Route path='/gallery' Component={Gallery} />
       <Route path='/blogs' Component={Blogs} />
-      <Route path='/testtitle' Component={TestTitle} />
     </Routes>
   </Router>
   );

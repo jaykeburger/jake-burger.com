@@ -1,12 +1,23 @@
+.title {
+    color: black;
+    font-size: 300%;
+}
+.subtitle {
+    color: black !important;
+    font-size: 200%;
+}
+
 .window-container {
     float:right;
     height: 30vh;
-    width: 50vw;
+    width: 40vw;
+    min-width: 300px;
     border-style: outset;
     border-color: white  white; 
     color:black;
     border-width: 3px;
     position:relative;
+    left:33%;
 }
 
 .window-header {
@@ -23,6 +34,7 @@
     width: 100%;
     border-style:groove;
     border-color: black;
+    color: black;
 }
 
 .close-tab {
@@ -37,6 +49,22 @@
     font-weight: 7;
     right: 5px;
     position: absolute;
-    display: inline;
+    display: inline-block;
+    color: black;
+}
+
+.close-tab2 {
+    $closeTabHeight: 35px;
+    background-color: rgb(202, 202, 202);
+    height: $closeTabHeight;
+    width: $closeTabHeight;
+    border-style:none solid solid none;
+    box-shadow: 2px 2px rgb(3, 0, 59);
+    border-color: black;
+    font-size: large;
+    font-weight: 7;
+    right: 45px;
+    position: absolute;
+    display: inline-block;
     color: black;
 }

@@ -6,15 +6,21 @@ import '../../styles/socialmediastyle.css';
   
 const SocialMediaBar = () => {
   return (
-    <div class='container'>
-              <div class="element2">
+    <div class='socials-window-container'>
+        <div class='socials-window-header'>
+          <div class="socials-close-tab1">X</div>
+          <div class="socials-close-tab2">-</div>
+        </div>
+        <div class='socials-window-body'>
+          <div class="element2">
             <a target='blank' href="https://www.linkedin.com/in/jake-d-burger/"><img src={linkedinlogo} alt="loading..."/></a>
-        </div>
-        <div class="element1">
+          </div>
+          <div class="element1">
             <a target='blank' href="https://github.com/jaykeburger"><img src={githublogo}  alt="loading..."/></a>
-        </div>
-        <div class="element3">
+          </div>
+          <div class="element3">
             <a target='blank' href="https://www.codecoogs.com/"><img src={cocologo} alt="loading..." /></a>
+          </div>
         </div>
     </div>
   );
