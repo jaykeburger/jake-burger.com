@@ -7,12 +7,15 @@ import Typewriter from "typewriter-effect";
 const HomePageTitle = () => {
   return (
     <div>
-      <h1 style={{color:'white', fontSize:'700%'}}>
+      <div className='home-title'>
+      <h1>
             <img src={require('../../assets/palmtree.png')}/>
             <i>Jake Burger</i>
             <img style={{transform:'scaleX(-1)'}} src={require('../../assets/palmtree.png')}/>
       </h1>
-      <h1 style={{color:'white', fontSize:'2vw', textAlign:'center'}}>
+      </div>
+      <div className='home-subtitle'>
+      <h1>
       <Typewriter
             options={{
                 autoStart: true,
@@ -40,6 +43,7 @@ const HomePageTitle = () => {
             }}
             />
       </h1>
+      </div>
     </div>
   );
 };
