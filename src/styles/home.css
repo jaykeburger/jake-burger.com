@@ -18,6 +18,33 @@ body {
 	}
 }
 
+.home-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	background-color: red;
+}
+
+.title-container {
+	display: flex;
+	flex-wrap: wrap;
+	height: 50vh;
+	width: 100%;
+	background-color: green;
+}
+.terminal-container {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: blue;
+	
+}
+.social-media-container {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: yellow;
+	margin-left: 0px;
+}
+
 .flex-container {
     text-align: center;
     justify-content: center;
@@ -31,5 +58,10 @@ body {
 }
 
 .social-media-bar {
+	display: inline-block;
+}
+
+.terminal-window {
 	margin-top: 300px;
+	display: inline-block;
 }

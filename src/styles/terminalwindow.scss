@@ -1,13 +1,29 @@
-.title {
-    color: black;
-    font-size: 300%;
+.keyword {
+    color: rgb(37, 71, 174);
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 120%;
 }
-.subtitle {
-    color: black !important;
-    font-size: 200%;
+.var-name {
+    color: rgb(0, 166, 255);
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 120%;
+}
+.operator {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 120%;
 }
 
-.window-container {
+.quotations {
+    color: #c15700;
+    display: inline-block;
+    font-size: 120%;
+}
+
+.terminal-window-container {
     height: 30vh;
     width: 40vw;
     min-width: 300px;
@@ -18,7 +34,7 @@
     position:relative;
 }
 
-.window-header {
+.terminal-window-header {
     background: linear-gradient(-45deg, #6d8ce1, #00368d);
     height: 20%;
     width: 100%;
@@ -26,16 +42,17 @@
     border-style: groove;
     border-color: black;
 }
-.window-body {
-    background-color: rgb(202, 202, 202);
+.terminal-window-body {
+    background-color: rgb(42, 0, 61);
     height: 80%;
     width: 100%;
     border-style:groove;
     border-color: black;
     color: black;
+    text-align: left;
 }
 
-.close-tab {
+.terminal-close-tab {
     $closeTabHeight: 35px;
     background-color: rgb(202, 202, 202);
     height: $closeTabHeight;
@@ -51,7 +68,7 @@
     color: black;
 }
 
-.close-tab2 {
+.terminal-close-tab2 {
     $closeTabHeight: 35px;
     background-color: rgb(202, 202, 202);
     height: $closeTabHeight;
@@ -65,4 +82,9 @@
     position: absolute;
     display: inline-block;
     color: black;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }

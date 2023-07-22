@@ -8,7 +8,7 @@ import '../../styles/navbarstyle.css'
 
 function BasicExample() {
   return (
-    <Navbar expand="lg" style={{backgroundColor:'black', position:'sticky', top:'0'}}>
+    <Navbar expand="lg" style={{zIndex:'1', backgroundColor:'black', position:'sticky', top:'0'}}>
       <Container style={{color:'white', marginLeft:'0px'}}>
         <Navbar.Brand  style={{color:'white', marginLeft:'1vw'}} href="/">j4ke.dev</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

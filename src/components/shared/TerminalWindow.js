@@ -1,18 +1,18 @@
 import React from 'react';
-import '../../styles/socialmediastyle.css';
-import '../../styles/window.scss';
+import '../../styles/terminalwindow.scss';
 import Typewriter from "typewriter-effect";
 
 const TerminalWindow = () => {
   return (
     <div>
-        <div class="window-container">
-            <div class="window-header">
-                <div class="close-tab">X</div>
-                <div class="close-tab2">-</div>
+        <div class="terminal-window-container">
+            <div class="terminal-window-header">
+                <div class="terminal-close-tab">X</div>
+                <div class="terminal-close-tab2">-</div>
             </div>
-            <div class="window-body">
-        <h1 className='subtitle'><i>
+            <div class="terminal-window-body">
+                <ol><li><p className='keyword'>var</p><p className='var-name'>Who_I_am</p><p className='operator'>=</p><p className='quotations'>"</p>
+                <p className='quotations'><i>
         <Typewriter
             options={{
                 autoStart: true,
@@ -22,24 +22,25 @@ const TerminalWindow = () => {
             onInit={(typewriter) => {
                 typewriter
                 .typeString("software developer")
-                .pause(20000)
+                .pause(30000)
                 .deleteAll()
                 .typeString("adventurer")
-                .pause(20000)
+                .pause(30000)
                 .deleteAll()
                 .typeString("university student")
-                .pause(20000)
+                .pause(30000)
                 .deleteAll()
                 .typeString("leader")
-                .pause(20000)
+                .pause(30000)
                 .deleteAll()
                 .typeString("designer")
-                .pause(20000)
+                .pause(30000)
                 .deleteAll()
                 .start();
             }}
             />
-        </i></h1>
+        </i></p><p className='quotations'>"</p><p className='operator'>;</p></li>
+        <li><p className='keyword'>var</p><p className='var-name'>What_I_Do</p><p className='operator'>=</p></li></ol>
             </div>
         </div>
     </div>
