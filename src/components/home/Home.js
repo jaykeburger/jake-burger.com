@@ -1,9 +1,10 @@
 import React from 'react';
 import SocialMediaBar from './SocialMediaBar';
 import HomePageTitle from './HomePageTitle';
-import '../../styles/home.css'
+import '../../styles/pagestyles/home.css'
 import { Tooltip } from 'react-tooltip'
 import TerminalWindow from '../shared/TerminalWindow';
+import Window from '../shared/Window'
 
 const Home = () => {
   return (

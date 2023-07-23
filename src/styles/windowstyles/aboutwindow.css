@@ -1,0 +1,68 @@
+.title {
+    color: black;
+    font-size: 300%;
+    width: 35%;
+}
+.subtitle {
+    color: black !important;
+    font-size: 200%;
+}
+
+.window-container {
+    height: 60vh;
+    width: 65vw;
+    min-width: 300px;
+    border-style: outset;
+    border-color: white  white; 
+    color:black;
+    border-width: 3px;
+    position:relative;
+}
+
+.window-header {
+    background: linear-gradient(-45deg, #6d8ce1, #00368d);
+    height: 45px;
+    width: 100%;
+    padding: 0;
+    border-style: groove;
+    border-color: black;
+}
+.window-body {
+    background-color: rgb(202, 202, 202);
+    height: 90%;
+    width: 100%;
+    border-style:groove;
+    border-color: black;
+    color: black;
+}
+
+.close-tab {
+    background-color: rgb(202, 202, 202);
+    height: 35px;
+    width: 35px;
+    border-style:none solid solid none;
+    box-shadow: 2px 2px rgb(3, 0, 59);
+    border-color: black;
+    font-size: large;
+    font-weight: 7;
+    right: 5px;
+    position: absolute;
+    display: inline-block;
+    color: black;
+}
+
+.close-tab2 {
+
+    background-color: rgb(202, 202, 202);
+    height: 35px;
+    width: 35px;
+    border-style:none solid solid none;
+    box-shadow: 2px 2px rgb(3, 0, 59);
+    border-color: black;
+    font-size: large;
+    font-weight: 7;
+    right: 45px;
+    position: absolute;
+    display: inline-block;
+    color: black;
+}

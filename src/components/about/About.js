@@ -1,24 +1,16 @@
 import React from 'react';
-import '../../styles/about.css';
+import '../../styles/pagestyles/about.css';
 import CodeCoogs from '../../components/about/CodeCoogs';
 import Map from '../../components/about/Travel';
+import AboutWindow from '../shared/AboutWindow';
   
 const About = () => {
   return (
     <div className='about-parent'>
         <br></br>
         <br></br>
+        <AboutWindow/>
         <br></br>
-        <h1 >ABOUT ME</h1>
-        <div className='about-codecoogs'>
-            <CodeCoogs/>
-        </div>
-        <div className='about-traveling'>
-            <Map/>
-        </div>
-        <div className='about-other'> 
-            <h1>Other</h1>
-        </div>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/window.scss';
+import '../../styles/windowstyles/window.scss';
 import Typewriter from "typewriter-effect";
 
 const Window = () => {

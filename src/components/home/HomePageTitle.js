@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/home.css';
+import '../../styles/pagestyles/home.css';
 import Window from '../shared/Window';
 import Typewriter from "typewriter-effect";
 

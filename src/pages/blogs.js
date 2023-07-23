@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/blogs.css';
+import '../styles/pagestyles/blogs.css';
 import cocologo from '../assets/photos/IMG_6316.jpg'
   
 const About = () => {
