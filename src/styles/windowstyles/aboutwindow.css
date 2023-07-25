@@ -79,8 +79,9 @@
 
 .about-section {
     width: 55%;
-    min-width: 420px;
+    min-width: 350px;
     margin-right: 5%;
+    word-wrap:break-word;
 }
 
 .image-section {
