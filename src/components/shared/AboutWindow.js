@@ -4,17 +4,17 @@ import Typewriter from "typewriter-effect";
 
 const AboutWindow = () => {
   return (
-    <div>
+    <div className='flex-container'>
         <div class="window-container">
             <div class="window-header">
                 <div class="close-tab">X</div>
                 <div class="close-tab2">-</div>
             </div>
             <div class="window-body">
-                <h1 className='title'>
+                <h1 className='about-title'>
                     <img src={require('../../assets/spinningfries.gif')}/>
                     <i>About Me</i>
-                    <img style={{transform:'scaleX(-1)'}} src={require('../../assets/spinningfries.gif')}/>
+                    <img style={{transform:'scaleX(-1)'}} src={require('../../assets/burger.gif')}/>
                 </h1>
                 <p><i><b>Software Engineering @ Boeing</b></i></p>
                 <p><i><b>BS, Computer Science @ University of Houston</b></i></p>
