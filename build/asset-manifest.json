@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.48ede7ae.css",
-    "main.js": "/static/js/main.6db6fe0a.js",
+    "main.css": "/static/css/main.968f989f.css",
+    "main.js": "/static/js/main.49f0a4f0.js",
     "static/media/IMG_6316.jpg": "/static/media/IMG_6316.0fa003002207d3258645.jpg",
     "static/media/burger.gif": "/static/media/burger.64668f4d7a9e893d974e.gif",
     "static/media/spinningfries.gif": "/static/media/spinningfries.d7f3c02699ca631a5a2d.gif",
+    "static/media/jakeburger.jpg": "/static/media/jakeburger.b94b76b812b053e471a2.jpg",
     "static/media/IMG_6320.jpg": "/static/media/IMG_6320.c508154cc79d78d47611.jpg",
     "static/media/IMG_6319.jpg": "/static/media/IMG_6319.ded49baced29c04fee2e.jpg",
     "static/media/IMG_6317.jpg": "/static/media/IMG_6317.b7002ee492a6997d7d47.jpg",
@@ -14,11 +15,11 @@
     "static/media/resume.pdf": "/static/media/resume.52edee26c2868045534e.pdf",
     "static/media/cocoidea1.png": "/static/media/cocoidea1.f3dbbed3808f4a45d782.png",
     "index.html": "/index.html",
-    "main.48ede7ae.css.map": "/static/css/main.48ede7ae.css.map",
-    "main.6db6fe0a.js.map": "/static/js/main.6db6fe0a.js.map"
+    "main.968f989f.css.map": "/static/css/main.968f989f.css.map",
+    "main.49f0a4f0.js.map": "/static/js/main.49f0a4f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.48ede7ae.css",
-    "static/js/main.6db6fe0a.js"
+    "static/css/main.968f989f.css",
+    "static/js/main.49f0a4f0.js"
   ]
 }
