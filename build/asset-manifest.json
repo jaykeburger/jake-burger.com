@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.968f989f.css",
+    "main.css": "/static/css/main.4f51d7f4.css",
     "main.js": "/static/js/main.49f0a4f0.js",
     "static/media/IMG_6316.jpg": "/static/media/IMG_6316.0fa003002207d3258645.jpg",
     "static/media/burger.gif": "/static/media/burger.64668f4d7a9e893d974e.gif",
@@ -10,16 +10,22 @@
     "static/media/IMG_6319.jpg": "/static/media/IMG_6319.ded49baced29c04fee2e.jpg",
     "static/media/IMG_6317.jpg": "/static/media/IMG_6317.b7002ee492a6997d7d47.jpg",
     "static/media/IMG_6318.jpg": "/static/media/IMG_6318.7cad4ceb548074b56d8e.jpg",
+    "static/media/DigitalGlitchDemo-Regular.woff": "/static/media/DigitalGlitchDemo-Regular.7974cd21917ccfa1e000.woff",
+    "static/media/MushroomKingdomNbpRegular-RGGA.ttf": "/static/media/MushroomKingdomNbpRegular-RGGA.1fb49035b6c5c86eab75.ttf",
     "static/media/palmtree.png": "/static/media/palmtree.7ccc3655bd868e0ae084.png",
     "static/media/github.png": "/static/media/github.90626fd8e79fe65c88db.png",
     "static/media/resume.pdf": "/static/media/resume.52edee26c2868045534e.pdf",
+    "static/media/TechnoRaceItalic-eZRWe.otf": "/static/media/TechnoRaceItalic-eZRWe.ff13a3964ea1685bd362.otf",
     "static/media/cocoidea1.png": "/static/media/cocoidea1.f3dbbed3808f4a45d782.png",
+    "static/media/PixelEmulator-xq08.ttf": "/static/media/PixelEmulator-xq08.4771127bc9170d77651f.ttf",
+    "static/media/Uncracked Free Trial-6d44.woff": "/static/media/Uncracked Free Trial-6d44.321dcf162d795b2371de.woff",
+    "static/media/SnesItalic-1G9Be.ttf": "/static/media/SnesItalic-1G9Be.646e241900ac738898f2.ttf",
     "index.html": "/index.html",
-    "main.968f989f.css.map": "/static/css/main.968f989f.css.map",
+    "main.4f51d7f4.css.map": "/static/css/main.4f51d7f4.css.map",
     "main.49f0a4f0.js.map": "/static/js/main.49f0a4f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.968f989f.css",
+    "static/css/main.4f51d7f4.css",
     "static/js/main.49f0a4f0.js"
   ]
 }
