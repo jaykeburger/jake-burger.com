@@ -2,7 +2,7 @@ import React from 'react';
 import '../../styles/pagestyles/about.css';
 import CodeCoogs from '../../components/about/CodeCoogs';
 import Map from '../../components/about/Travel';
-import AboutWindow from '../shared/AboutWindow';
+import AboutWindow from './AboutWindow';
   
 const About = () => {
   return (

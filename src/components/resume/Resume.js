@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/pagestyles/resume.css';
 import pdf from '../../assets/resume.pdf'
+import ResumeWindow from './ResumeWindow';
 
 const Resume = () => {
 
@@ -47,6 +48,7 @@ const Resume = () => {
     <input type="submit" value="Resume" />
 </form>
 </section>
+<ResumeWindow/>
 </div>
   );
 };
