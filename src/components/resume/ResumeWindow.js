@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/windowstyles/resumewindow.css';
+import pdf from '../../assets/resume.pdf'
 import Typewriter from "typewriter-effect";
 
 const ResumeWindow = () => {
@@ -13,25 +14,51 @@ const ResumeWindow = () => {
             <div class="window-body">
                 <div className='about-section'>
                     <h1 className='about-title'>
-                    <img src={require('../../assets/spinningfries.gif')}/>
-                    <i>About Me</i>
-                    <img style={{transform:'scaleX(-1)'}} src={require('../../assets/burger.gif')}/>
-                </h1>
-                <p><i><b>Software Engineering @ Boeing 🚀</b></i></p>
-                <p><i><b>BS, Computer Science @ University of Houston 💻</b></i></p>
-                <p><i><b>Minor, Mathematics @ University of Houston 🧮</b></i></p>
-                <br></br>
-                <p><i><b>Who I am</b></i></p>
-                <p>I am Jake Burger, a student and software engineer who is constantly looking for new ways to improve my skills. I enjoy activities that challenge me and promote both physical and mental growth.</p>
-                <br></br>
-                <p><i><b>Code Coogs</b></i></p>
-                <p>I spent much of my time in college developing a computer science student organization known as Code Coogs. Here, I was given the opportunity to foster a community of coding enthusiasts. More info about Code Coogs can be found here: <a target='blank' href='https://www.codecoogs.com/'>Code Coogs Website</a></p>
-                <br></br>
-                <p><i><b>Hobbies</b></i></p>
-                <p>Outside of school and work, I am an avid enjoyer of video games, hiking, and traveling. My favorite genre of video game is sandbox, and I enjoy recreating real world structures virtually. I also love exploring and am a huge enjoyer of traveling and the outdoors. More about my travels can be found here: <a target='blank' href='http://j4ke.dev/blogs'>Jake's Blogs</a></p>
+                        <img src={require('../../assets/spinningfries.gif')}/>
+                        <i>Resume</i>
+                        <img style={{transform:'scaleX(-1)'}} src={require('../../assets/burger.gif')}/>
+                    </h1>
                 </div>
-                <div className='image-section'>
-                <img src={require('../../assets/photos/jakeburger.jpg')}/>
+                <div style={{height:'50vh'}}>
+                    <section class="accordion">
+                        <input type="checkbox" name="collapse1" id="handle1"/>
+                        <h2 class="handle">
+                            <label for="handle1">Education</label>
+                        </h2>
+                        <div class="content">
+                            <p>University of Houston - BS Computer Science - 2024</p>
+                        </div>
+                    </section>
+                    <section class="accordion">
+                        <input type="checkbox" name="collapse2" id="handle2"/>
+                        <h2 class="handle">
+                            <label for="handle2">Work Experience</label>
+                        </h2>
+                        <div class="content">
+                            <ul>
+                                <li><p>Boeing - Houston TX - May 2022 - Present</p></li>
+                                <li><p>iCode - Houston TX - Nov 2021 - May 2022</p></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="accordion">
+                        <input type="checkbox" name="collapse3" id="handle3"/>
+                        <h2 class="handle">
+                            <label for="handle3">Skills</label>
+                        </h2>
+                        <div class="content">
+                            <ul>
+                                <li><p>Languages: C++, C#, Java, HTML, CSS, JavaScript</p></li>
+                                <li><p>Frameworks: ASP.NET, Blazor, React </p></li>
+                                <li><p>Other: PhotoShop, Visual Studio, Raspberry Pi</p></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <form action={pdf} target="_blank">
+                            <input type="submit" value="Resume" />
+                        </form>
+                    </section>
                 </div>
             </div>
         </div>
