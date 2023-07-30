@@ -9,7 +9,9 @@ const About = () => {
     <div className='about-parent'>
         <br></br>
         <br></br>
-        <AboutWindow/>
+        <div>
+          <AboutWindow/>
+        </div>
         <br></br>
     </div>
   );

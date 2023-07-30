@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
       <div id='/' className='home-container'>
-        <div className='title-container'>
+        <div style={{backgroundColor:''}} className='title-container'>
           <HomePageTitle />
         </div>
         <div className='social-media-container'>

@@ -9,9 +9,9 @@ const HomePageTitle = () => {
     <div>
       <div className='home-title'>
       <h1>
-            <img src={require('../../assets/palmtree.png')}/>
+            <img className='palm-tree' src={require('../../assets/palmtree.png')}/>
             <i>Jake Burger</i>
-            <img style={{transform:'scaleX(-1)'}} src={require('../../assets/palmtree.png')}/>
+            <img className='palm-tree' style={{transform:'scaleX(-1)'}} src={require('../../assets/palmtree.png')}/>
       </h1>
       </div>
       <div className='home-subtitle'>
