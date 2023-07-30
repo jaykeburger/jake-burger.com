@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e132a13.css",
-    "main.js": "/static/js/main.b297de47.js",
+    "main.css": "/static/css/main.c03ba9a3.css",
+    "main.js": "/static/js/main.c9893c57.js",
     "static/media/vwavebackground.gif": "/static/media/vwavebackground.ffb3592783a1797d40be.gif",
     "static/media/IMG_6316.jpg": "/static/media/IMG_6316.0fa003002207d3258645.jpg",
     "static/media/burger.gif": "/static/media/burger.64668f4d7a9e893d974e.gif",
@@ -19,16 +19,16 @@
     "static/media/resume.pdf": "/static/media/resume.52edee26c2868045534e.pdf",
     "static/media/TechnoRaceItalic-eZRWe.otf": "/static/media/TechnoRaceItalic-eZRWe.ff13a3964ea1685bd362.otf",
     "static/media/cocoidea1.png": "/static/media/cocoidea1.f3dbbed3808f4a45d782.png",
-    "static/media/cocoideahovered.png": "/static/media/cocoideahovered.41bfb0aa465e3ef90039.png",
+    "static/media/cocoideahovered.png": "/static/media/cocoideahovered.d71249648869df6fac77.png",
     "static/media/PixelEmulator-xq08.ttf": "/static/media/PixelEmulator-xq08.4771127bc9170d77651f.ttf",
     "static/media/Uncracked Free Trial-6d44.woff": "/static/media/Uncracked Free Trial-6d44.321dcf162d795b2371de.woff",
     "static/media/SnesItalic-1G9Be.ttf": "/static/media/SnesItalic-1G9Be.646e241900ac738898f2.ttf",
     "index.html": "/index.html",
-    "main.0e132a13.css.map": "/static/css/main.0e132a13.css.map",
-    "main.b297de47.js.map": "/static/js/main.b297de47.js.map"
+    "main.c03ba9a3.css.map": "/static/css/main.c03ba9a3.css.map",
+    "main.c9893c57.js.map": "/static/js/main.c9893c57.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e132a13.css",
-    "static/js/main.b297de47.js"
+    "static/css/main.c03ba9a3.css",
+    "static/js/main.c9893c57.js"
   ]
 }
