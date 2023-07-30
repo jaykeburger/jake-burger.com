@@ -40,40 +40,100 @@
     font-style: normal;
     font-display: swap;
 }
-  
-body {
-	background: linear-gradient(-45deg, #5d146c, #000000, #1b076a);
-	background-size: 800% 800%;
-	animation: gradient 10s ease infinite;
-	height: 500vh;
-	color: #000;
-}
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
+@media (min-width: 0px) {
+	.home-container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		background-image: url(../../assets/vwavebackgroundsmall.gif);
+		background-repeat:no-repeat;
+		background-size: 100% 100%;
 	}
-	50% {
-		background-position: 100% 50%;
+	.home-title > h1 {
+		font-size:calc(12px + 7.5vw);
+		color: white;
+		font-family: 'Techno';
 	}
-	100% {
-		background-position: 0% 50%;
+	.home-subtitle > h1 {
+		margin-top:-15px;
+		font-size:calc(12px + 0.5vw);
+		color: white;
+		text-align:center;
+		font-family: 'Pixel';
+	}
+	img {
+		width: 3.5vw;
+		min-width: 35px;
+	}
+	body {
+		background: linear-gradient(-45deg, #5d146c, #000000, #1b076a);
+		background-size: 800% 800%;
+		animation: gradient 10s ease infinite;
+		height: 500vh;
+		color: #000;
+	}
+	
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
 	}
 }
-
-img {
-    width: 3.5vw;
-    min-width: 35px;
-}
-.home-container {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	background-image: url(../../assets/vwavebackground.gif);
-	background-repeat:no-repeat;
-    background-size:100% 100%;
+@media (min-width: 700px) {
+	.home-container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		background-image: url(../../assets/vwavebackground.gif);
+		background-repeat:no-repeat;
+		background-size: 100% 100%;
+	}
+	.home-title > h1 {
+		font-size:calc(12px + 5.5vw);
+		color: white;
+		font-family: 'Techno';
+	}
+	.home-subtitle > h1 {
+		margin-top:-15px;
+		font-size:calc(12px + 0.5vw);
+		color: white;
+		text-align:center;
+		font-family: 'Pixel';
+	}
+	img {
+		width: 3.5vw;
+		min-width: 35px;
+	}
+	body {
+		background: linear-gradient(-45deg, #5d146c, #000000, #1b076a);
+		background-size: 800% 800%;
+		animation: gradient 10s ease infinite;
+		height: 500vh;
+		color: #000;
+	}
+	
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
 }
 
 .title-container {
@@ -104,19 +164,6 @@ img {
 .palm-tree {
 	margin-left: 15px;
 	margin-right: 15px;
-}
-
-.home-title > h1 {
-	font-size:calc(12px + 5.5vw);
-	color: white;
-	font-family: 'Techno';
-}
-.home-subtitle > h1 {
-	margin-top:-15px;
-	font-size:calc(12px + 0.5vw);
-	color: white;
-	text-align:center;
-	font-family: 'Pixel';
 }
 
 .home-bottom > h1 {
