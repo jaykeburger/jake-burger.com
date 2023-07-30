@@ -1,5 +1,12 @@
-.about-parent {
-    background-color: rgba(0, 0, 0, 0.4);
-    height: 220vh;
-    color:aliceblue;
+@media (min-width:0px) {
+    .about-parent {
+        height: 270vh;
+        color:aliceblue;
+    }
+}
+@media (min-width:700px) {
+    .about-parent {
+        height: 130vh;
+        color:aliceblue;
+    }
 }

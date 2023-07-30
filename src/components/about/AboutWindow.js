@@ -13,10 +13,10 @@ const AboutWindow = () => {
             <div class="window-body">
                 <div className='about-section'>
                     <h1 className='about-title'>
-                    <img src={require('../../assets/spinningfries.gif')}/>
-                    <i>About Me</i>
-                    <img style={{transform:'scaleX(-1)'}} src={require('../../assets/burger.gif')}/>
-                </h1>
+                        <img src={require('../../assets/spinningfries.gif')}/>
+                        <i>About Me</i>
+                        <img style={{transform:'scaleX(-1)'}} src={require('../../assets/burger.gif')}/>
+                    </h1>
                 <p><i><b>Software Engineering @ Boeing 🚀</b></i></p>
                 <p><i><b>BS, Computer Science @ University of Houston 💻</b></i></p>
                 <p><i><b>Minor, Mathematics @ University of Houston 🧮</b></i></p>

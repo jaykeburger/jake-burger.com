@@ -19,14 +19,18 @@ const ResumeWindow = () => {
                         <img style={{transform:'scaleX(-1)'}} src={require('../../assets/burger.gif')}/>
                     </h1>
                 </div>
-                <div style={{height:'50vh'}}>
+                <div style={{width:'300vh'}}>
                     <section class="accordion">
                         <input type="checkbox" name="collapse1" id="handle1"/>
                         <h2 class="handle">
                             <label for="handle1">Education</label>
                         </h2>
                         <div class="content">
-                            <p>University of Houston - BS Computer Science - 2024</p>
+                            <div className='education'>
+                            <p><i><b>BS, Computer Science @ University of Houston 💻</b></i></p>
+                            <p><i>Minor, Mathematics @ University of Houston 🧮</i></p>
+                            <p><i>GPA: 3.7</i></p>
+                            </div>
                         </div>
                     </section>
                     <section class="accordion">
@@ -35,10 +39,10 @@ const ResumeWindow = () => {
                             <label for="handle2">Work Experience</label>
                         </h2>
                         <div class="content">
-                            <ul>
-                                <li><p>Boeing - Houston TX - May 2022 - Present</p></li>
-                                <li><p>iCode - Houston TX - Nov 2021 - May 2022</p></li>
-                            </ul>
+                            <div className='work-experience'>
+                                <p><i><b>Software Engineering Intern </b>@ Boeing</i></p>
+                                <p><i><b>Coding Instructor </b>@ iCode School Missouri City</i></p>
+                            </div>
                         </div>
                     </section>
                     <section class="accordion">
@@ -47,11 +51,9 @@ const ResumeWindow = () => {
                             <label for="handle3">Skills</label>
                         </h2>
                         <div class="content">
-                            <ul>
-                                <li><p>Languages: C++, C#, Java, HTML, CSS, JavaScript</p></li>
-                                <li><p>Frameworks: ASP.NET, Blazor, React </p></li>
-                                <li><p>Other: PhotoShop, Visual Studio, Raspberry Pi</p></li>
-                            </ul>
+                            <p><b>Languages:</b> C++, C#, Java, HTML, CSS, JavaScript</p>
+                            <p><b>Frameworks:</b> ASP.NET, Blazor, React </p>
+                            <p><b>Other:</b> PhotoShop, Visual Studio, Raspberry Pi</p>
                         </div>
                     </section>
                     <section>

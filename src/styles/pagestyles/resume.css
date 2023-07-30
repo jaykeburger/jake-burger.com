@@ -26,9 +26,9 @@
     padding: 15px;
     width: match-parent;
     min-width: 100px;
-    border: 1px solid #39ce43;
+    border: 1px solid;
+    background-color: wheat;
     border-top: 0;
-    margin: auto 0;
     margin-left: 8vw;
     margin-right: 8vw;
   }
@@ -42,13 +42,11 @@
   .accordion label { 
     color: #333;
     border: solid;
-    border-radius: 15px;
-    height: 5rem;
+    height: 50px;
     cursor: pointer;
     font-weight: normal;
     padding: 15px;
     background: #fffefa;
-    margin: auto 0;
     margin-left: 8vw;
     margin-right: 8vw;
   }
@@ -65,19 +63,8 @@
     margin-right: 10px;
     font-size: .98em;
     line-height: 1.556em;
-    vertical-align: middle;
   }
   
   .accordion > input[type="checkbox"]:checked ~ .handle label:before {
     content: "^";
-  }
-
-  section {
-    text-align: center;
-    justify-content: center;
-  }
-
-  h2 {
-    text-align: center;
-    justify-content: center;
   }
