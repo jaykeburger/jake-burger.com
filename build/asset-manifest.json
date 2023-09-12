@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c03ba9a3.css",
+    "main.css": "/static/css/main.8fd703ab.css",
     "main.js": "/static/js/main.c9893c57.js",
     "static/media/vwavebackground.gif": "/static/media/vwavebackground.ffb3592783a1797d40be.gif",
     "static/media/IMG_6316.jpg": "/static/media/IMG_6316.0fa003002207d3258645.jpg",
@@ -24,11 +24,11 @@
     "static/media/Uncracked Free Trial-6d44.woff": "/static/media/Uncracked Free Trial-6d44.321dcf162d795b2371de.woff",
     "static/media/SnesItalic-1G9Be.ttf": "/static/media/SnesItalic-1G9Be.646e241900ac738898f2.ttf",
     "index.html": "/index.html",
-    "main.c03ba9a3.css.map": "/static/css/main.c03ba9a3.css.map",
+    "main.8fd703ab.css.map": "/static/css/main.8fd703ab.css.map",
     "main.c9893c57.js.map": "/static/js/main.c9893c57.js.map"
   },
   "entrypoints": [
-    "static/css/main.c03ba9a3.css",
+    "static/css/main.8fd703ab.css",
     "static/js/main.c9893c57.js"
   ]
 }

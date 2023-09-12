@@ -48,7 +48,7 @@
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		background-image: url(../../assets/vwavebackgroundsmall.gif);
+		/*background-image: url(../../assets/vwavebackgroundsmall.gif);*/
 		background-repeat:no-repeat;
 		background-size: 100% 100%;
 	}
@@ -70,7 +70,7 @@
 	}
 	body {
 		background: linear-gradient(-45deg, #5d146c, #000000, #1b076a);
-		background-size: 800% 800%;
+		background-size: 800% 1300%;
 		animation: gradient 10s ease infinite;
 		height: 1000vh;
 		color: #000;
@@ -95,7 +95,7 @@
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		background-image: url(../../assets/vwavebackground.gif);
+		/*background-image: url(../../assets/vwavebackground.gif);*/
 		background-repeat:no-repeat;
 		background-size: 100% 100%;
 	}
@@ -116,7 +116,7 @@
 		min-width: 35px;
 	}
 	body {
-		background: linear-gradient(-45deg, #5d146c, #000000, #1b076a);
+		background: linear-gradient(-45deg, #3d86a2, #07233a);
 		background-size: 800% 800%;
 		animation: gradient 10s ease infinite;
 		height: 500vh;
