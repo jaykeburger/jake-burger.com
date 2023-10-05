@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d952121.css",
-    "main.js": "/static/js/main.c9893c57.js",
+    "main.css": "/static/css/main.9f2357f1.css",
+    "main.js": "/static/js/main.93363853.js",
     "static/media/IMG_6316.jpg": "/static/media/IMG_6316.0fa003002207d3258645.jpg",
     "static/media/burger.gif": "/static/media/burger.64668f4d7a9e893d974e.gif",
     "static/media/spinningfries.gif": "/static/media/spinningfries.d7f3c02699ca631a5a2d.gif",
@@ -14,6 +14,7 @@
     "static/media/DigitalGlitchDemo-Regular.woff": "/static/media/DigitalGlitchDemo-Regular.7974cd21917ccfa1e000.woff",
     "static/media/MushroomKingdomNbpRegular-RGGA.ttf": "/static/media/MushroomKingdomNbpRegular-RGGA.1fb49035b6c5c86eab75.ttf",
     "static/media/github.png": "/static/media/github.90626fd8e79fe65c88db.png",
+    "static/media/JakeBurgerResume.pdf": "/static/media/JakeBurgerResume.792e1955133270a862ae.pdf",
     "static/media/resume.pdf": "/static/media/resume.52edee26c2868045534e.pdf",
     "static/media/TechnoRaceItalic-eZRWe.otf": "/static/media/TechnoRaceItalic-eZRWe.ff13a3964ea1685bd362.otf",
     "static/media/cocoidea1.png": "/static/media/cocoidea1.f3dbbed3808f4a45d782.png",
@@ -22,11 +23,11 @@
     "static/media/Uncracked Free Trial-6d44.woff": "/static/media/Uncracked Free Trial-6d44.321dcf162d795b2371de.woff",
     "static/media/SnesItalic-1G9Be.ttf": "/static/media/SnesItalic-1G9Be.646e241900ac738898f2.ttf",
     "index.html": "/index.html",
-    "main.6d952121.css.map": "/static/css/main.6d952121.css.map",
-    "main.c9893c57.js.map": "/static/js/main.c9893c57.js.map"
+    "main.9f2357f1.css.map": "/static/css/main.9f2357f1.css.map",
+    "main.93363853.js.map": "/static/js/main.93363853.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d952121.css",
-    "static/js/main.c9893c57.js"
+    "static/css/main.9f2357f1.css",
+    "static/js/main.93363853.js"
   ]
 }

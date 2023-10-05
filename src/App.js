@@ -18,7 +18,7 @@ function App() {
       <Route path='/#about' Component={Main} />
       <Route path='/#resume' Component={Main} />
       <Route path='/gallery' Component={Gallery} />
-      <Route path='/blogs' Component={Blogs} />
+      <Route path='/blogs' Component={Main} />
     </Routes>
   </Router>
   );

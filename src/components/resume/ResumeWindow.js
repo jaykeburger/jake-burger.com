@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/windowstyles/resumewindow.css';
-import pdf from '../../assets/resume.pdf'
+import pdf from '../../assets/JakeBurgerResume.pdf'
 import Typewriter from "typewriter-effect";
 
 const ResumeWindow = () => {

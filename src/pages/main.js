@@ -10,10 +10,10 @@ const Main = () => {
       <div id='/'>
         <Home/>
       </div>
-      <div id='about'>
+      <div id='about' className='give-more-space'>
         <About/>
       </div>
-      <div id='resume'>
+      <div id='resume' className='give-more-space'>
         <Resume/>
       </div>
     </div>

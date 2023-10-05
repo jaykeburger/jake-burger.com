@@ -6,7 +6,7 @@ import PhotoCarousel from '../components/gallery/PhotoCarousel';
 const Gallery = () => {
   return (
     <div>
-        <h1>Photos</h1>
+      <br></br>
         <div className='carousel'>
             <PhotoCarousel/>    
         </div>
